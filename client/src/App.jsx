@@ -34,7 +34,11 @@ function App() {
           </>
         )}
 
-        
+        <Route path="/checkout" element={<Check />} />
+        <Route path="/order" element={<Order />} />
+        <Route path="/track" element={<TrackOrder />} />
+
+
       </Routes>
     </Router>
   );
